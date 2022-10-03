@@ -1,0 +1,12 @@
+article {
+    height: 300px;
+    width: 300px;
+    background-color: lightblue;
+    animation: bruh 4s infinite;
+}
+
+@keyframes bruh{
+    0%{transform: translate(0,0);}
+    50%{transform: translate(1280px,0);}
+    100%{transform: translate(0,0);}
+}

@@ -1,0 +1,29 @@
+div {
+    height:300px;
+width:300px;
+    border: 2px solid green;
+    position: relative;
+    margin: 0px;
+    
+}
+
+span {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    line-height: 300px;
+    
+}
+
+.small {
+    height: 30px;
+    width: 30px;
+    border: 2px solid pink;
+    position: absolute;
+    margin: 0 auto;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    
+    
+}

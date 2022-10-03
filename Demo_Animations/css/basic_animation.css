@@ -1,0 +1,22 @@
+section {
+  width: 500px;
+  height: 200px;
+
+  background-color: red;
+
+  transition: background-color 2s;
+}
+
+section:hover {
+  background-color: aqua;
+}
+
+nav > ul > li > a {
+  border-bottom: 1px solid rgba(0, 0, 0, 0);
+  text-decoration: none;
+  transition: border-color 2s linear;
+}
+
+nav > ul > li > a:hover {
+  border-color: rgba(0, 0, 0, 1);
+}

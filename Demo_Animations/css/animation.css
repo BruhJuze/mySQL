@@ -1,0 +1,38 @@
+@keyframes goaround {
+  0% {
+    background-color: red;
+    transform: translate(0, 0) rotate(0deg);
+    border-radius: 0;
+  }
+
+  25% {
+    transform: translate(300px, 0) rotate(-90deg);
+    border-radius: 25%;
+    background-color: purple;
+  }
+
+  50% {
+    transform: translate(300px, 300px) rotate(-180deg);
+    border-radius: 50%;
+    background-color: pink;
+  }
+
+  75% {
+    transform: translate(0, 300px) rotate(-270deg);
+    border-radius: 25%;
+    background-color: aqua;
+  }
+
+  100% {
+    transform: translate(0, 0) rotate(-360deg);
+    border-radius: 0;
+    background-color: red;
+  }
+}
+
+article {
+  width: 100px;
+  height: 100px;
+  background-color: red;
+  animation: goaround 4s infinite;
+}
