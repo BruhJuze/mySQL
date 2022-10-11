@@ -1,0 +1,85 @@
+<!doctype  html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <title>SAS | Boka flyg nu din jävel</title>
+  <link rel="shortcut icon" type="image/X-icon" href="assets/sas.ico" />
+</head>
+<body>
+<div class="news" > <center> <a href="#" class="active"> Inga nyheter för dig, din jävel</a> </center> </div>
+<div class="sus" > </div> <div class="sasbar"></div>
+<div class="luleasas"> </div>
+  <button onclick="laggpa()">Lägg på!</button>
+  <div id="test">0</div>
+  <script>
+    x = 0;
+    function laggpa()
+    {
+      x++;
+      document.getElementById("test").innerHTML = x;
+    }
+  </script>
+  <style>
+  body {
+	background-image: url(assets/sast.jpg);
+	background-repeat: no-repeat;
+	background-color: white;
+	margin: 0;
+	}
+	
+	.news
+{
+	width: 100%;
+	height: 41.6px;
+	line-height: 250%;
+	background-color: #EAE9E8;
+	
+	
+}
+
+.sasbar
+{
+width: 100%;
+height: 64px;
+background-color: #000099;
+position:absolute;
+}
+
+.sus {
+width: 80px;
+height: 64px;
+position:absolute;
+background-image: url('assets/sus.png');
+background-repeat:no-repeat;
+background-size:contain;
+z-index: 10;
+left: 230px;
+}
+
+.luleasas {
+background-image: url('assets/luleasas.png');
+width: 400px;
+height: 200px;
+top: 600px;
+background-size: cover;
+position:absolute;
+}
+
+#overlay {
+  position: fixed;
+  display: none;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0,0,0,0.5);
+  z-index: 12;
+  cursor: pointer;
+  }
+  
+  
+  </style>
+</body>
+</html>
